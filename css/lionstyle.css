@@ -21,10 +21,32 @@ header {
 
 section {
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 500px;
+}
+
+article {
+    width:31%;
+    float:left;
+    margin:10px;   
+}
+
+article > img {
+    width: 310px;
+    height: 310px;
+    
+}
+
+article > p {
+    margin-top: 20px;
+    font-size: 15px;
 }
 
 footer {
     width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
 }
 
 .container {
@@ -64,4 +86,9 @@ footer {
 #content {
     font-size:18px;
     text-align:center;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
 }
