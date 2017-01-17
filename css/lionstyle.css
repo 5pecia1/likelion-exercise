@@ -1,0 +1,7 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+#title {
+    /*font-family: 'Hanna', sans-serif;*/
+    font-family: 'Jeju Gothic', serif;
+}
