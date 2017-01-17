@@ -28,13 +28,20 @@ section {
 article {
     width:31%;
     float:left;
-    margin:10px;   
+    margin:10px;  
 }
 
-article > img {
+article > div {
+    overflow: hidden;
     width: 310px;
     height: 310px;
-    
+}
+
+article > div > img {
+    position: relative;
+    width: auto;
+    height: 310px;
+    margin-left: -125px;
 }
 
 article > p {
